@@ -105,13 +105,13 @@ def webhook():
     
     if amount[0]=='@':
         fiat=float(amount[1:len(amount)])
-        print("COIN>>",symbol, " : ",action," : amount=",fiat," : leverage=" , lev)
+        print("COIN>>",symbol, " : ",action," : amount=",fiat,")
     if amount[0]=='$':
         usdt=float(amount[1:len(amount)])
-        print("USDT>>",symbol, " : ",action," : amount=",usdt," : leverage=" , lev)
+        print("USDT>>",symbol, " : ",action," : amount=",usdt,")
     if amount[0]=='%':
         percent= float(amount[1:len(amount)])
-        print("Percent>>",symbol, " : ",action," : amount=",percent," : leverage=" , lev)
+        print("Percent>>",symbol, " : ",action," : amount=",percent,")
     
     print('amount=',amount)
     print('fiat=',fiat)
