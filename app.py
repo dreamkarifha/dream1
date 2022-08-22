@@ -79,7 +79,7 @@ def webhook():
     amount = data['amount']
     symbol = data['symbol']
     passphrase = data['passphrase']
-    lev =0
+    lev=0
     #separate amount type
     fiat=0
     usdt=0
