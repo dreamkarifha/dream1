@@ -18,7 +18,7 @@
 #API_KEY=Binance API Key 
 #API_SECRET=Binance API Secret  
 #BOT_NAME= Your Robo Name
-#FREBALABCE= $xxx minimum USDT to run bot 
+#FREEBALABCE= $xxx minimum USDT to run bot 
 #LEVERAGE_ENABLE=TRUE , TRUE to enable forced leverage from TV, FALSE to use default value from Binance
 #LINE_TOKEN= https://line.notify token
 #ORDER_ENABLE=TRUE
